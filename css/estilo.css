@@ -1,0 +1,116 @@
+@font-face {
+    font-family: athena;
+    src: url('fontes/Athena-Regular\ \(PERSONAL\ USE\ ONLY\).ttf');
+}
+body{
+    background-image: url("https://d2sz1kgdtrlf1n.cloudfront.net/task_images/gNCR1615105517056-flatlaydeliciousbrazilianfoodarrangement1.webp");
+}
+section{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.principal{
+    width: 40%;
+    padding: 2.5%;
+    text-align: center;
+    background: #1f1e1e83;
+    color:#ff2e19;
+    font-family: athena;
+    border-radius: 10%;
+}
+.detalhe{
+    font-size: 10px;
+    color: #c0c0c0;
+}
+a{
+    cursor: pointer;
+    color: #2396ff;
+    text-decoration: none;
+}
+a:hover{
+    color: #b1d1ee;
+    text-decoration-line: underline;
+}
+
+.principal img{
+    width: 50%;
+}
+input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+#bt{
+    background-color: #ff2e19;
+    color: #ffff;
+    border-radius: 2px;
+}
+#bt:hover{
+    background-color: #ffff;
+    color: #ff2e19;
+}
+#results{
+    color: rgb(226, 226, 219);
+}
+
+select {
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    -ms-appearance:none;
+    appearance:none;
+    outline:0;
+    box-shadow:none;
+    border:0!important;
+    background: #1f1e1e91;
+    flex: 1;
+    padding: 0 .5em;
+    color:#fff;
+    cursor:pointer;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
+    }
+    select::-ms-expand {
+    display: none;
+    }
+    .select {
+    margin: 5%;
+    position: relative;
+    display: flex;
+    height: 3em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    }
+    .select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0 1em;
+    background: #2b2e2e;
+    cursor:pointer;
+    pointer-events:none;
+    transition:.25s all ease;
+    }
+    .select:hover::after {
+    color: #2396ff;
+    }
+
+
+@media only screen and (max-device-width: 650px) {
+   
+    .principal{
+        width: 100%;
+        padding: 5%;
+        margin-top: 10%;
+    }
+}

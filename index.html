@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="sortcut icon" href="css/imagens/logo.gif" type="image/x-icon" />
+    <title>Appdido</title>   
+</head>
+<body>
+    <section id="conteudo">
+        <div class="principal">
+            <img src="css/imagens/logo.gif">
+            <h3>Busca cep:</h3>
+            <input id="cep" placeholder="Digite aqui o seu cep">
+            <p class="detalhe">Não sabe seu cep? <a href="http://www.buscacep.correios.com.br/sistemas/buscacep/buscaCep.cfm">Pesquise aqui</a></p>
+            <p id="cidade"> </p>
+            <input id="bt" type="submit" value="Pesquisar" onclick="pesquisaCep()">
+            <p id="results"></p>
+            <a href="cadastrarcidade.php">Cadastrar cidade</a>
+        </div>
+    </section> 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="arquivo.js"></script>
+</body>
+</html>
