@@ -10,7 +10,7 @@ cidades atendidas em um banco de dados.
 Para o back-end e integração com banco de dados foi utilizada a linguagem php,
 e o banco de dados phpmyadmin.
 
-Infelismente não foi possivel utilizar as stacks sugeridas e utilizadas na Appdidos,
+Infelizmente não foi possível utilizar as stacks sugeridas e utilizadas na Appdidos,
 então optei por entregar o teste mesmo assim, utilizando as ferramentas que tenho mais
 domínio.
 
